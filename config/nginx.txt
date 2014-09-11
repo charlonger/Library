@@ -1,0 +1,25 @@
+
+1. 配置fastcgi
+D:\server\php541\php-cgi.exe -b 127.0.0.1:9000 -c D:\server\php541\php.ini
+
+2. 服务器配置
+server {
+    listen       8080;
+    server_name  laravel.dev;
+
+
+    location / {
+        root   html;
+        index  index.html index.htm index.php;
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    location ~ \.php$ {
+          root           D:/wwwroot/happytoo.dev/public;
+          fastcgi_pass   127.0.0.1:9000;
+          fastcgi_index  index.php;
+          fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
+          include        fastcgi_params;
+    }
+
+}
