@@ -1,0 +1,50 @@
+/*-- reset css --*/
+dl,dt,dd{padding: 0; margin: 0;}
+a{text-decoration: none;}
+
+/*-- 表格 --*/
+.base-table {
+    table-layout: fixed;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-collapse: collapse;
+}
+.base-table tbody tr:hover{
+    background: #f2f2f2;
+}
+.base-table th, td{
+    text-align: center;
+    line-height: 18px;
+    padding: 10px 6px;
+    border: 1px solid #ccc;
+    font-weight: normal;
+}
+.base-table th{
+    color: #555;
+    background: none;
+    font-weight: bold;
+}
+.base-table td{
+    vertical-align: top;
+    font-size: 12px;
+    color: #000;
+}
+
+/*-- 左侧栏目 --*/
+.nav { width:170px; position:absolute;left:0;top:0px; border-top:1px solid #3E7784; }
+.nav .logo { display:block; float:left; width:160px; height:80px; overflow:hidden; padding:11px 0 0 10px; }
+.nav .logo span { color:#999; font-size:12px; }
+.nav .b2c{ display:none;}
+.spe{background-color:#3e7784; }
+.nav dl { background:#3e7784; height:auto; overflow:hidden;border-bottom:1px solid #3e7784; height:auto; float:left; width:100%;}
+.nav dl dt { line-height:16px; padding:10px 0px; text-indent:15px;  background:url(../images/bg-nav-lis.png) repeat-y 20px -118px #2f6774; color:#fff; font-size:14px; font-weight:bold; cursor:pointer; }
+.nav dl dt a { display:block; color:#fff; zoom:1; }
+.nav dl dt.cur { margin-bottom:5px; color:#fff; }
+.nav dl dt.hover { background-color:#103b44; }
+.nav dl dt a:hover, .nav dl dd.hover a { color:#3e7784;}
+.nav dl dd { padding:0; overflow:hidden; border-bottom:none; font-size:12px;display:block; float:left; width:100%; display:none; }
+.nav dl dd.cur a:hover { color:#fff; }
+.nav dl dd a { background:url(../images/bg-nav-lis.png) repeat-y 0 -312px;  color:#fff; width:100%; display:block; text-indent:30px; height:30px; line-height:30px; overflow:hidden; *font-weight:normal;}
+.nav dl dd:last-child a { margin-bottom:5px;}
+.nav dl dd a:hover, .nav dl dd.cur a { background-color:#103b44; background-position:0 -282px; color:#fff; }
+.nav dl dd a i { margin:0px 0 -5px 13px;}

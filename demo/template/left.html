@@ -1,0 +1,93 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+<title></title>
+</head>
+<body>
+<!--
+1. 当前页面展开
+2. Cookie记录展开
+showMenu:"1_1,2_1"
+addOnMenu：
+deleteOnMenu：
+renderMenu:
+-->
+<div class="nav">
+    <dl style="display:none">
+    </dl>
+    <dl>
+        <dt class="cur">系统管理</dt>
+        <dd style="display: block;"><a id="menu-2" title="站点设置" href="manager.site.html">站点设置</a></dd>
+        <dd style="display: block;"><a id="menu-4" title="目的地管理" href="manager.destination.html">目的地管理</a></dd>
+        <dd style="display: block;"><a id="menu-5" title="角色权限" href="manager.role.html">角色权限</a></dd>
+        <dd style="display: block;"><a id="menu-7" title="供应商分类" href="manager.seller.catelog.html">供应商分类</a></dd>
+        <dd style="display: block;"><a id="menu-8" title="管理员资料" href="manager.member.admin.html">管理员资料</a></dd>
+        <dd style="display: block;"><a id="menu-9" title="供应商资料" href="manager.member.seller.html">供应商资料</a></dd>
+        <dd class="cur" id="current-menu" style="display: block;"><a id="menu-10" title="客户资料" href="manager.member.buyer.html">客户资料</a></dd>
+        <dd style="display: block;"><a id="menu-11" title="注册审核" href="manager.audit.html">注册审核<font color="red"><b>(2)</b></font></a></dd>
+        <dd style="display: block;"><a id="menu-13" title="资质上传" href="manager.certificate.html">资质上传</a></dd>
+        <dd style="display: block;"><a id="menu-14" title="行政区划" href="manager.region.html">行政区划</a></dd>
+        <dd style="display: block; border-bottom-style: none;"><a id="menu-15" title="首页滚动图片" href="manager.ads.html">首页滚动图片</a></dd>
+    </dl>
+    <dl>
+        <dt>网站管理</dt>
+        <dd><a id="menu-18" title="系统公告" href="manager.news.announcement.html">系统公告</a></dd>
+        <dd style="border-bottom-style: none;"><a id="menu-19" title="旅游资讯" href="manager.news.news.html">旅游资讯</a></dd>
+    </dl>
+    <dl>
+        <dt>短信传真</dt>
+        <dd><a id="menu-22" title="账号信息" href="manager.sms.account.html">账号信息</a></dd>
+        <dd><a id="menu-23" title="短信发送" href="manager.sms.send.html">短信发送</a></dd>
+        <dd style="border-bottom-style: none;"><a id="menu-24" title="短信查询" href="manager.sms.html">短信查询</a></dd>
+    </dl>
+    <dl>
+        <dt>积分管理</dt>
+        <dd><a id="menu-26" title="图片目录" href="manager.photo.root.html">图片目录</a></dd>
+        <dd><a id="menu-27" title="上传图片" href="manager.photo.photoupload.html">上传图片</a></dd>
+        <dd><a id="menu-28" title="图片查询" href="manager.photo.photosearch.html">图片查询</a></dd>
+        <dd><a id="menu-29" title="商品类别" href="manager.goods.catelog.html">商品类别</a></dd>
+        <dd><a id="menu-30" title="商品管理" href="manager.goods.html">商品管理</a></dd>
+        <dd><a id="menu-31" title="商品查询" href="manager.shop.html">商品查询</a></dd>
+        <dd><a id="menu-32" title="兑换订单" href="manager.goods.order.html">兑换订单</a></dd>
+        <dd><a id="menu-33" title="积分查询（客）" href="manager.integral.html?cat=1">积分查询（客）</a></dd>
+        <dd><a id="menu-34" title="积分查询（供）" href="manager.integral.html?cat=2">积分查询（供）</a></dd>
+        <dd style="border-bottom-style: none;"><a id="menu-35" title="供应商交款" href="manager.integral.deposit.html">供应商交款</a></dd>
+    </dl>
+    <dl>
+        <dt>产品管理</dt>
+        <dd><a id="menu-40" title="类别定义" href="manager.class.html?type=ProductType">类别定义</a></dd>
+        <dd><a id="menu-41" title="等级定义" href="manager.class.html?type=ProductLevel">等级定义</a></dd>
+        <dd><a id="menu-42" title="标签定义" href="manager.class.html?type=ProductTag">标签定义</a></dd>
+        <dd><a id="menu-43" title="网站搜索" href="manager.class.html?type=ProductDir2">网站搜索</a></dd>
+        <dd><a id="menu-44" title="搜索定义" href="manager.class.html?type=ProductDir">搜索定义</a></dd>
+        <dd><a id="menu-45" title="交通定义" href="manager.traffic.html">交通定义</a></dd>
+        <dd><a id="menu-46" title="接送模板" href="manager.take.html">接送模板</a></dd>
+        <dd><a id="menu-47" title="产品模板" href="manager.linetemplate.html">产品模板</a></dd>
+        <dd style="border-bottom-style: none;"><a id="menu-48" title="产品管理" href="manager.line.html">产品管理</a></dd>
+    </dl>
+    <dl>
+        <dt>订单管理</dt>
+        <dd><a id="menu-50" title="订单操作" href="manager.order.html">订单操作</a></dd>
+        <dd><a id="menu-51" title="预留订单" href="manager.OrderReservation.html">预留订单</a></dd>
+        <dd><a id="menu-52" title="加位订单" href="manager.OrderAddSeat.html">加位订单</a></dd>
+        <dd><a id="menu-53" title="收客明细" href="manager.order.analysedetails.html">收客明细</a></dd>
+        <dd style="border-bottom-style: none;"><a id="menu-54" title="收客统计" href="manager.order.analyse.html">收客统计</a></dd>
+    </dl>
+    <dl>
+        <dt>财务管理</dt>
+        <dd><a id="menu-57" title="账单明细" href="manager.finance.details.html">账单明细</a></dd>
+        <dd style="border-bottom-style: none;"><a id="menu-58" title="账单统计" href="manager.finance.analyse.html">账单统计</a></dd>
+    </dl>
+    <dl>
+        <dt>线路预订</dt>
+        <dd><a id="menu-60" title="国内长线" href="manager.managerline.html?t=1">国内长线</a></dd>
+        <dd><a id="menu-61" title="国内短线" href="manager.managerline.html?t=0">国内短线</a></dd>
+        <dd style="border-bottom-style: none;"><a id="menu-62" title="国际线路" href="manager.managerline.html?t=2">国际线路</a></dd>
+    </dl>
+</div>
+</body>
+</html>
