@@ -1,29 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9de1f285-1205-4812-af05-6808ce7913af" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/images/bg-nav-lis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/web/images/bg-nav-lis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/template/button.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/checkbox.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/web/js/core.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/template/form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app-web/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app-web/config/laravel.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/template/left.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app-web/config/nginx.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/template/sele.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/web/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/template/table.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/js/website.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/web/js/website.js" />
-      <change type="DELETED" beforePath="D:\wwwroot\Library\config\laravel.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\wwwroot\Library\config\nginx.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\wwwroot\Library\website\admin.php" afterPath="" />
+    <list default="true" id="9de1f285-1205-4812-af05-6808ce7913af" name="Default" comment="模板：左侧栏目录">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/demo/js/jquery.cookie.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/js/core.js" afterPath="$PROJECT_DIR$/demo/js/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/template/left.html" afterPath="$PROJECT_DIR$/demo/template/left.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo/css/style.css" afterPath="$PROJECT_DIR$/demo/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\wwwroot\Library\website\list.html" afterPath="$PROJECT_DIR$/demo/template/list.html" />
     </list>
     <ignored path="Library.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +28,66 @@
     <favorites_list name="Library" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="left.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/template/left.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="179" column="48" selection-start="5357" selection-end="5357" vertical-scroll-proportion="2.1595092" vertical-offset="3425" max-vertical-offset="5373">
+              <folding>
+                <element signature="n#style#0;n#dd#1;n#dl#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#dd#9;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#br#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/template/form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="378">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/template/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="22" selection-start="504" selection-end="504" vertical-scroll-proportion="-6.8055553" vertical-offset="997" max-vertical-offset="1917">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/js/core.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="2" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.cookie.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/js/jquery.cookie.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="45" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3159">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="website.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/js/website.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -71,8 +113,13 @@
         <option value="$PROJECT_DIR$/website/template/button.html" />
         <option value="$PROJECT_DIR$/website/template/left.html" />
         <option value="$PROJECT_DIR$/demo/checkbox.php" />
-        <option value="$PROJECT_DIR$/demo/css/style.css" />
         <option value="$PROJECT_DIR$/demo/template/table.html" />
+        <option value="$PROJECT_DIR$/Think/管理后台左侧栏解决方案.txt" />
+        <option value="$PROJECT_DIR$/demo/js/jquery.cookie.js" />
+        <option value="$PROJECT_DIR$/demo/css/style.css" />
+        <option value="$PROJECT_DIR$/demo/template/left - 副本.html" />
+        <option value="$PROJECT_DIR$/demo/template/left.html" />
+        <option value="$PROJECT_DIR$/demo/js/core.js" />
       </list>
     </option>
   </component>
@@ -109,6 +156,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -126,36 +174,50 @@
               <option name="myItemId" value="Library" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Think" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="269" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="285" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="276" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="291" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="276" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="293" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1069" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1021" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="269" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="285" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="276" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="291" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="276" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="293" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1069" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1021" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.lastSelected" value="fileTemplates" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="SearchEverywhereHistory" value="&#10;chu" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -202,12 +264,22 @@
       <created>1410414512156</created>
       <updated>1410414512156</updated>
     </task>
+    <task id="LOCAL-00001" summary="后台类库">
+      <created>1411348617708</created>
+      <updated>1411348617708</updated>
+    </task>
+    <task id="LOCAL-00002" summary="后台类库">
+      <created>1411368067698</created>
+      <updated>1411368067698</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21693122" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -218,15 +290,14 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38306877" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16719577" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11625148" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21733506" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -262,11 +333,60 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="后台类库" />
+    <MESSAGE value="模板：左侧栏目录" />
+    <option name="LAST_COMMIT_MESSAGE" value="模板：左侧栏目录" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Think/管理后台左侧栏解决方案.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="144" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="162" max-vertical-offset="324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/template/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="34" selection-start="1877" selection-end="1877" vertical-scroll-proportion="0.0" vertical-offset="1435" max-vertical-offset="2565">
+          <folding>
+            <element signature="n#style#0;n#dd#1;n#dl#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dd#9;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/js/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="45" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="243" max-vertical-offset="3321">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="108" selection-start="1595" selection-end="1595" vertical-scroll-proportion="0.0" vertical-offset="932" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/js/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Think/管理后台左侧栏解决方案.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="18" selection-start="21" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo/checkbox.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="513" />
@@ -334,17 +454,14 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/tables.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="21" selection-start="3473" selection-end="3473" vertical-scroll-proportion="0.0" vertical-offset="4460" max-vertical-offset="6885" />
+        <state line="173" column="21" selection-start="3473" selection-end="3473" vertical-scroll-proportion="0.0" vertical-offset="4460" max-vertical-offset="6885">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/checkbox.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="253" selection-end="253" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="513" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="14" selection-start="591" selection-end="591" vertical-scroll-proportion="0.6718232" vertical-offset="256" max-vertical-offset="1485" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/template/table.html">
@@ -357,24 +474,74 @@
         <state line="5" column="4" selection-start="92" selection-end="92" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="297" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/template/list.html">
+    <entry file="file://$PROJECT_DIR$/demo/template/button.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="17.5" vertical-offset="630" max-vertical-offset="1917" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/template/left.html">
+    <entry file="file://$PROJECT_DIR$/app-web/config/nginx.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2646" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="837" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="41" selection-start="1297" selection-end="1297" vertical-scroll-proportion="-8.0" vertical-offset="880" max-vertical-offset="1458">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Think/管理后台左侧栏解决方案.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="144" selection-end="144" vertical-scroll-proportion="0.21315789" vertical-offset="0" max-vertical-offset="760">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/js/website.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/js/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="45" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3159">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/js/core.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="2" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/template/form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="378" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="378">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/template/button.html">
+    <entry file="file://$PROJECT_DIR$/demo/template/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882" />
+        <state line="46" column="22" selection-start="504" selection-end="504" vertical-scroll-proportion="-6.8055553" vertical-offset="997" max-vertical-offset="1917">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/template/left.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="179" column="48" selection-start="5357" selection-end="5357" vertical-scroll-proportion="2.1595092" vertical-offset="3425" max-vertical-offset="5373">
+          <folding>
+            <element signature="n#style#0;n#dd#1;n#dl#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#dd#9;n#dl#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#br#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
