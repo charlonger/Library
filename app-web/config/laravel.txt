@@ -1,3 +1,9 @@
+1. nignx 服务器
 location / {
     try_files $uri $uri/ /index.php?$query_string;
 }
+
+2. 程序安装
+composer create-project laravel/laravel --prefer-dist
+
+

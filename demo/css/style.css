@@ -1,7 +1,7 @@
 /*-- reset css --*/
 dl,dt,dd{padding: 0; margin: 0;}
 a{text-decoration: none;}
-
+body{font-family: "Microsoft Yahei";color: #000;font-size: 14px;}
 /*-- 表格 --*/
 .base-table {
     table-layout: fixed;
@@ -47,3 +47,22 @@ a{text-decoration: none;}
 #leftMenu dl dd a { background:url(../images/bg-nav-lis.png) repeat-y 0 -312px;  color:#fff; width:100%; display:block; text-indent:30px; height:30px; line-height:30px; overflow:hidden; *font-weight:normal;}
 #leftMenu dl dd a:hover, #leftMenu dl dd.cur a { background-color:#103b44; background-position:0 -282px; color:#fff; }
 #leftMenu dl dd a i { margin:0px 0 -5px 13px;}
+
+/*-- 搜索menu --*/
+.linesc { width:auto; margin-bottom:10px; padding:0 10px; border:1px solid #ccc; background:#fff; z-index:3!important;}
+.linesc dl { padding:5px 0; border-bottom:1px dashed #ccc; display:block; zoom:1; }
+.linesc dl:after { display:block; content:" "; height:0; overflow:hidden; clear:both; zoom:1; }
+.linesc dl.last { border-bottom:none; }
+.linesc dt { float:left; display:block; width:50px; line-height:1; margin:3px 10px 3px 0; padding:5px 0; font-weight:bold; }
+.linesc dd a { display:inline-block; line-height:1; margin:3px 2px 3px 0; padding:5px 5px; color:#000; }
+.linesc dd a:hover { background:#eee; border:none !important;}
+.linesc dd a.cur { background:#666; color:#fff; }
+.lsc-l dd { float:right; width:93.2%; }
+.lsc-m { position:relative; z-index:10; }
+.lsc-m .showmore { width:50px; height:14px; line-height:14px; position:absolute; top:13px; right:10px; text-align:center; color:#06c; cursor:pointer; }
+.lsc-m .showmore:after { display:block; content:" "; width:0; height:0; overflow:hidden; position:absolute; bottom:-12px; left:22px; border:4px solid #06c; border-color:#06c #fff #fff #fff; }
+.lsc-mc { display:none; overflow:hidden; }
+.lsc-m dl.nob { border-bottom:none; }
+.show .more:after { bottom:-8px; border-color:#fff #fff #06c #fff; }
+.linesc .block{float: left;margin:0 20px 0 0;border-right: 1px dashed #ccc;}
+.linesc .block .end{margin: 0 20px 0 0;}
