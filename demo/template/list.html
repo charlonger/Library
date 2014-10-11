@@ -1,65 +1,136 @@
-<form >
-<input type="text" />
-</form>
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="../js/core.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+</head>
+<body>
+
+<div class="listT">
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" class="bk-top">
+        <thead>
+        <tr style="background-color: rgb(253, 253, 253);">
+            <th width="150">出发日期</th>
+            <th width="50">天数</th>
+            <th>去程航班</th>
+            <th>返程航班</th>
+            <th width="50">折扣</th>
+            <th width="50">价格</th>
+            <th width="50">机位总数</th>
+            <th width="50">机位余数</th>
+            <th width="50">状态</th>
+            <th width="125">操作</th>
+        </tr>
+        </thead>
+        <tbody style="text-align:center">
+
+        <tr class="stop">
+            <td>2014年10月25日</td>
+            <td>1</td>
+            <td>大同/三亚 FM43214 19:32/21:52 直飞</td>
+            <td>三亚/大同 FM4222 20:32/23:51 直飞</td>
+            <td>1.00</td>
+            <td>111</td>
+            <td>40</td>
+            <td>40</td>
+            <td>停止</td>
+            <td class="act"><dl>
+                <dd><a href="seller.trafficPlane.editPlane.html?tid=7604&amp;date=20141025&amp;id=6654" class="ico-edit"><i></i>编辑</a></dd>
+                <dd><a href="javascript:void(0);" data-id="6654" data-url="seller.trafficPlane.deletePlane.html" class="ico-del"><i></i>删除</a></dd>
+                <dd><a href="seller.order.html?sd=2014-10-25&amp;trafficplan=6654" class="ico-select"><i></i>查看</a></dd>
+                <dd><a href="javascript:void(0);" class="up-state ico-start" data-id="6654" data-state="1"><i></i>启用</a></dd>
+            </dl></td>
+        </tr>
+
+        <tr class="stop" style="background-color: rgb(253, 253, 253);">
+            <td>2014年10月25日</td>
+            <td>1</td>
+            <td>上海/深圳 G222 00:00/00:00 直飞</td>
+            <td>深圳/上海 B222 00:00/00:00 直飞</td>
+            <td>1.00</td>
+            <td>111</td>
+            <td>11</td>
+            <td>11</td>
+            <td>停止</td>
+            <td class="act"><dl>
+                <dd><a href="seller.trafficPlane.editPlane.html?tid=7567&amp;date=20141025&amp;id=6656" class="ico-edit"><i></i>编辑</a></dd>
+                <dd><a href="javascript:void(0);" data-id="6656" data-url="seller.trafficPlane.deletePlane.html" class="ico-del"><i></i>删除</a></dd>
+                <dd><a href="seller.order.html?sd=2014-10-25&amp;trafficplan=6656" class="ico-select"><i></i>查看</a></dd>
+                <dd><a href="javascript:void(0);" class="up-state ico-start" data-id="6656" data-state="1"><i></i>启用</a></dd>
+            </dl></td>
+        </tr>
+
+        </tbody>
+    </table>
+</div>
+
 <script type="text/javascript">
-var MYAPP = MYAPP || {};
-MYAPP.core = {
+    var MYAPP = MYAPP || {};
+    MYAPP.core = {
 
 
-};
+    };
 
-MYAPP.layar = {
-    params:{},
+    MYAPP.layar = {
+        params:{},
 
-    openWindow:function(){
+        openWindow:function(){
 
-    },
-    closeWindow:function(){
+        },
+        closeWindow:function(){
 
-    }
-};
+        }
+    };
 
-//yig yemian chuxian duoge sousuo,
-//
-MYAPP.search = {
-   apiUrl:{},
-   dataList:{},
-   params:{},
+    //yig yemian chuxian duoge sousuo,
+    //
+    MYAPP.search = {
+        apiUrl:{},
+        dataList:{},
+        params:{},
 
-   
-   initParams:function(){
-   
-   },
 
-   search:function(){
-   
-   },
+        initParams:function(){
 
-   _validParams:function(){
-   
-   }
-  
-};
+        },
 
-MYAPP.list = {
-  boxName:"",
-  apiUrl:{},
-  checkAll:function(){
-  
-  },
+        search:function(){
 
-  add:function(){
-  },
+        },
 
-  delete:function(){
-  
-  },
+        _validParams:function(){
 
-  deleteCheck:function(){
-  },
+        }
 
-  edit:function(){
-  
-  }
-};
+    };
+
+    MYAPP.list = {
+        boxName:"",
+        apiUrl:{},
+        checkAll:function(){
+
+        },
+
+        add:function(){
+        },
+
+        delete:function(){
+
+        },
+
+        deleteCheck:function(){
+        },
+
+        edit:function(){
+
+        }
+    };
 </script>
+
+
+</body>
+</html>
