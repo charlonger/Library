@@ -1,0 +1,249 @@
+﻿
+.attachment-list {
+    border: solid 1px #ddd;
+    width: 440px;
+    display:none;
+    font-size:12px;
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .progressWrapper {
+        position: relative;
+        height: 38px;
+        border-bottom: solid 1px #ddd;
+        overflow: hidden;
+        line-height: 38px;
+    }
+
+        .progressWrapper:last-child {
+            border-bottom: none 0;
+        }
+
+    .progressName {
+        background-image: url('images/file-category-icon.png');
+        background-repeat:no-repeat;
+        height: 38px;
+        padding-left: 30px;
+        margin-left: 10px;
+    }
+
+    .progressCancel,.progressDelete {
+        color: #e60012;
+        position: absolute;
+        right: 3%;
+        top: 0;
+    }
+
+    .progressTotalBar {
+        background-color: #bbb;
+        height: 20px;
+        left: 40px;
+        position: absolute;
+        top: 9px;
+        width: 315px;
+        z-index: 101;
+    }
+
+    .progressBarInProgress {
+        background-color: #006FB5;
+        height: 20px;
+        left: 40px;
+        line-height: 20px;
+        position: absolute;
+        text-align: center;
+        top: 9px;
+        width: 315px;
+        z-index: 102;
+    }
+
+    .progressBarStatus {
+        z-index: 103;
+        position: absolute;
+        text-align: center;
+        top: 9px;
+        width: 315px;
+        height: 20px;
+        left: 40px;
+        line-height: 20px;
+        color: #fff;
+    }
+}
+.attachment-card {
+    width: 600px;
+    font-size:12px;
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .progressWrapper {
+        width: 142px;
+        height: 158px;
+        float: left;
+        display: block;
+        margin: 4px;
+    }
+
+    .progressContainer {
+        border: solid 1px #ddd;
+        width: 140px;
+        height: 156px;
+        display: block;
+        position: relative;
+    }
+
+    .progressImageBox {
+        width: 130px;
+        height: 92px;
+        overflow: hidden;
+        margin: 5px;
+        background-color: #f5f5f5;
+        line-height: 92px;
+        font-size: 12px;
+        color: #999;
+        text-align: center;
+    }
+
+    .progressTotalBar {
+        width: 130px;
+        height: 20px;
+        background-color: #7a7a7a;
+        position: absolute;
+        left: 5px;
+        top: 77px;
+        z-index: 101;
+    }
+
+    .progressBarInProgress {
+        background-color: #006FB5;
+        height: 20px;
+        z-index: 102;
+        left: 0;
+        position: absolute;
+        top: 0;
+    }
+
+    .progressBarStatus {
+        z-index: 103;
+        width: 100%;
+        text-align: center;
+        height: 20px;
+        line-height: 20px;
+        color: #fff;
+        left: 0;
+        position: absolute;
+        top: 0;
+    }
+
+    .progressName {
+        width: 130px;
+        height: 20px;
+        position: absolute;
+        left: 5px;
+        top: 77px;
+        z-index: 100;
+        background-color: #000;
+        opacity: 0.3;
+        filter: alpha(opacity=30);
+        color:#fff;
+        overflow:hidden;
+        line-height:20px;
+        text-indent:10px;
+        word-break: break-all;
+        text-overflow: ellipsis;
+    }
+
+    .progressChangeNameBox {
+        width: 128px;
+        height: 18px;
+        overflow: hidden;
+        padding: 5px 6px;
+        color: #666;
+    }
+
+    .progressChangeText {
+        width: 85px;
+        height: 16px;
+        border: solid 1px #ddd;
+        line-height: 16px;
+        padding: 0 2px;
+    }
+
+    .progressSetCoverBox {
+        width: 80px;
+        height: 18px;
+        overflow: hidden;
+        padding: 5px 6px;
+        color: #666;
+    }
+
+    .progressCancel {
+        position: absolute;
+        top: 132px;
+        right: 7px;
+        color: #e60012;
+    }
+
+    .progressDelete {
+        position: absolute;
+        top: 132px;
+        right: 7px;
+        color: #e60012;
+    }
+
+    .progressImage {
+        width:130px;
+        height:92px;
+        overflow:hidden;
+        position:absolute;
+        top:5px;
+        left:5px;
+        z-index:99;
+    }
+}
+.attachment-list, .attachment-card {
+    .red {
+        color:red
+    }
+
+    .green {
+        color:green
+    }
+
+    .blue {
+        color:blue
+    }
+}
+
+.file-word {
+    .progressName {
+        background-position:0 -38px;
+    }
+}
+.file-execl {
+    .progressName {
+        background-position:0 -76px;
+    }
+}
+.file-zip {
+    .progressName {
+        background-position:0 -114px;
+    }
+}
+.file-picture {
+    .progressName {
+        background-position:0 -152px;
+    }
+}
+img.throbber {
+    border: 0 none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    min-width:200px;
+    _width:200px;
+}
