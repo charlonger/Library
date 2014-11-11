@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" data-main="../../js/main.js" src="../../js/require.js"></script>
+    <style type="text/css">#box1,#box2{height:100px;width:100px;border: 1px solid red;}</style>
+</head>
+<body>
+<div id="box1"></div>
+<div id="box2"></div>
+</body>
+<script type="text/javascript">
+    /**
+     * @desc    测试对象是引用还是复制：引用, 这样可以满足很多需求
+     *           很多插件都不支持amd规范, 需要进行手动返回插件对象。
+     */
+    require(['lib/jquery', 'app/line/site'], function($, site){
+        $("#box1").click(function(){
+            console.log(site.siteId);
+            site.siteId = 1;
+            console.log(site.siteId);
+        });
+    });
+
+    require(['lib/jquery', 'app/line/site'], function($, site){
+        $("#box2").click(function(){
+            console.log(site.siteId);
+            site.siteId = 2;
+            console.log(site.siteId);
+        });
+    });
+</script>
+</html>
