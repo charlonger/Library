@@ -2,7 +2,7 @@
 /**
  * author      : huanglong
  * createTime  : 14-11-6 下午4:35
- * description : 
+ * description :
  */
 class AdvanceSearch {
 
